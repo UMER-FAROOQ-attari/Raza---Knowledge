@@ -9,3 +9,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+.cente{
+    width: 80%;
+}
+.cla{
+
+    border: none !important;
+    background-color: aliceblue;
+    text-decoration: underline;
+    color: blue;
+}
