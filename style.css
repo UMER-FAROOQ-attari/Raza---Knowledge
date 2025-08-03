@@ -1,0 +1,11 @@
+.carousel-inner{
+  height: 86vh;
+}
+.carousel-inner img{
+  height: 86vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
