@@ -19,3 +19,47 @@
     text-decoration: underline;
     color: blue;
 }
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Alternating Row Colors (Black and White) */
+tr:nth-child(odd) {
+    background-color: #000;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Hover Effect */
+tr:hover {
+    transform: scale(1.05);
+    background-color: #444;
+    color: #fff;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Header Styling */
+th {
+    background-color: #333;
+    color: white;
+}
+.bord {
+    text-align: start;
+    display: inline-block;  /* Makes the border wrap around the text only */
+    border-bottom: 2px solid black;  /* Adds a bottom border */
+    padding-bottom: 5px;  /* Adds some space between text and the border */
+}
