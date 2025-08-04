@@ -63,3 +63,7 @@ th {
     border-bottom: 2px solid black;  /* Adds a bottom border */
     padding-bottom: 5px;  /* Adds some space between text and the border */
 }
+.books{
+    display: flex;
+    flex-wrap: wrap;
+}
