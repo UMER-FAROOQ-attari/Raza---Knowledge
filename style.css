@@ -64,7 +64,16 @@ th {
     padding-bottom: 5px;  /* Adds some space between text and the border */
 }
 .books{
+    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
+}
+.books img {
+    width: 250px;
+    height: 350px;
+}
+.card-img-top{
+    box-shadow: 0 0 20px black;
+    border-radius: 20px ;
 }
