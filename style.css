@@ -10,7 +10,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-.cente{
+body{
+    background-color: gainsboro;
+}
+.cente  {
+    border-radius: 20px;
+    box-shadow: 0 0 20px black  z;
+    padding: 20px;
+   background: #787272 !important;
+background: linear-gradient(0deg, rgba(120, 114, 114, 1) 0%, rgba(255, 252, 252, 1) 100%) !important;
     width: 80%;
 }
 .cla{
@@ -82,7 +90,6 @@ th {
 }/* General Styles */
 #Speeches {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
     padding: 20px;
 }
 
@@ -184,7 +191,6 @@ body {
 }
 
 .books-hero {
-  background-color: #f4f4f4;
   padding: 20px;
   border-radius: 10px;
 }
