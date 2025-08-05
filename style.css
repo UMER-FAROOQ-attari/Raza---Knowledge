@@ -545,13 +545,3 @@ footer .text-center p {
     }
 }
 
-.card, .cerd { /* add any other class */
-  opacity: 0;
-  transform: translateY(50px);
-  transition: all 1s ease-out;
-}
-
-.card.animate, .cerd.animate { /* animate multiple classes */
-  opacity: 1;
-  transform: translateY(0);
-}
